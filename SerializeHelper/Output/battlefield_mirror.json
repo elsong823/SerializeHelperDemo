@@ -1,0 +1,28 @@
+
+{
+    "battleField" : {
+        "battleMap" : {
+            "mapRow" : 14,
+            "mapColumn" : 11,
+            "specialGrids" : [
+                83,
+                93,
+                146
+            ]
+        },
+        "battleUnits" : [
+            {
+                "id" : 0,
+                "atk" : 10,
+                "hp"  : 9,
+                "maxHp" : 137
+            },
+            {
+                "id" : 1,
+                "atk" : 11,
+                "hp"  : 111,
+                "maxHp" : 143
+            }
+        ]
+    }
+}
