@@ -1,0 +1,959 @@
+
+{
+    "battleMap" : {
+        "mapRow" : 13,
+        "mapColumn" : 12,
+        "allGrids"  : [
+            {
+                "gridType" : 0,
+                "index"    : 0,
+                "row"      : 0,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 1,
+                "row"      : 0,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 2,
+                "row"      : 0,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 3,
+                "row"      : 0,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 4,
+                "row"      : 0,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 5,
+                "row"      : 0,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 6,
+                "row"      : 0,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 7,
+                "row"      : 0,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 8,
+                "row"      : 0,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 9,
+                "row"      : 0,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 10,
+                "row"      : 0,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 11,
+                "row"      : 0,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 12,
+                "row"      : 1,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 13,
+                "row"      : 1,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 14,
+                "row"      : 1,
+                "column"   : 2
+            },
+            {
+                "gridType" : 1,
+                "index"    : 15,
+                "row"      : 1,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 16,
+                "row"      : 1,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 17,
+                "row"      : 1,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 18,
+                "row"      : 1,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 19,
+                "row"      : 1,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 20,
+                "row"      : 1,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 21,
+                "row"      : 1,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 22,
+                "row"      : 1,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 23,
+                "row"      : 1,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 24,
+                "row"      : 2,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 25,
+                "row"      : 2,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 26,
+                "row"      : 2,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 27,
+                "row"      : 2,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 28,
+                "row"      : 2,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 29,
+                "row"      : 2,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 30,
+                "row"      : 2,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 31,
+                "row"      : 2,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 32,
+                "row"      : 2,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 33,
+                "row"      : 2,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 34,
+                "row"      : 2,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 35,
+                "row"      : 2,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 36,
+                "row"      : 3,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 37,
+                "row"      : 3,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 38,
+                "row"      : 3,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 39,
+                "row"      : 3,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 40,
+                "row"      : 3,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 41,
+                "row"      : 3,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 42,
+                "row"      : 3,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 43,
+                "row"      : 3,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 44,
+                "row"      : 3,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 45,
+                "row"      : 3,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 46,
+                "row"      : 3,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 47,
+                "row"      : 3,
+                "column"   : 11
+            },
+            {
+                "gridType" : 1,
+                "index"    : 48,
+                "row"      : 4,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 49,
+                "row"      : 4,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 50,
+                "row"      : 4,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 51,
+                "row"      : 4,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 52,
+                "row"      : 4,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 53,
+                "row"      : 4,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 54,
+                "row"      : 4,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 55,
+                "row"      : 4,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 56,
+                "row"      : 4,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 57,
+                "row"      : 4,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 58,
+                "row"      : 4,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 59,
+                "row"      : 4,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 60,
+                "row"      : 5,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 61,
+                "row"      : 5,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 62,
+                "row"      : 5,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 63,
+                "row"      : 5,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 64,
+                "row"      : 5,
+                "column"   : 4
+            },
+            {
+                "gridType" : 1,
+                "index"    : 65,
+                "row"      : 5,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 66,
+                "row"      : 5,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 67,
+                "row"      : 5,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 68,
+                "row"      : 5,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 69,
+                "row"      : 5,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 70,
+                "row"      : 5,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 71,
+                "row"      : 5,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 72,
+                "row"      : 6,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 73,
+                "row"      : 6,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 74,
+                "row"      : 6,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 75,
+                "row"      : 6,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 76,
+                "row"      : 6,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 77,
+                "row"      : 6,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 78,
+                "row"      : 6,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 79,
+                "row"      : 6,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 80,
+                "row"      : 6,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 81,
+                "row"      : 6,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 82,
+                "row"      : 6,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 83,
+                "row"      : 6,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 84,
+                "row"      : 7,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 85,
+                "row"      : 7,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 86,
+                "row"      : 7,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 87,
+                "row"      : 7,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 88,
+                "row"      : 7,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 89,
+                "row"      : 7,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 90,
+                "row"      : 7,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 91,
+                "row"      : 7,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 92,
+                "row"      : 7,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 93,
+                "row"      : 7,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 94,
+                "row"      : 7,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 95,
+                "row"      : 7,
+                "column"   : 11
+            },
+            {
+                "gridType" : 1,
+                "index"    : 96,
+                "row"      : 8,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 97,
+                "row"      : 8,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 98,
+                "row"      : 8,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 99,
+                "row"      : 8,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 100,
+                "row"      : 8,
+                "column"   : 4
+            },
+            {
+                "gridType" : 1,
+                "index"    : 101,
+                "row"      : 8,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 102,
+                "row"      : 8,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 103,
+                "row"      : 8,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 104,
+                "row"      : 8,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 105,
+                "row"      : 8,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 106,
+                "row"      : 8,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 107,
+                "row"      : 8,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 108,
+                "row"      : 9,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 109,
+                "row"      : 9,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 110,
+                "row"      : 9,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 111,
+                "row"      : 9,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 112,
+                "row"      : 9,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 113,
+                "row"      : 9,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 114,
+                "row"      : 9,
+                "column"   : 6
+            },
+            {
+                "gridType" : 1,
+                "index"    : 115,
+                "row"      : 9,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 116,
+                "row"      : 9,
+                "column"   : 8
+            },
+            {
+                "gridType" : 1,
+                "index"    : 117,
+                "row"      : 9,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 118,
+                "row"      : 9,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 119,
+                "row"      : 9,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 120,
+                "row"      : 10,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 121,
+                "row"      : 10,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 122,
+                "row"      : 10,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 123,
+                "row"      : 10,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 124,
+                "row"      : 10,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 125,
+                "row"      : 10,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 126,
+                "row"      : 10,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 127,
+                "row"      : 10,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 128,
+                "row"      : 10,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 129,
+                "row"      : 10,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 130,
+                "row"      : 10,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 131,
+                "row"      : 10,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 132,
+                "row"      : 11,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 133,
+                "row"      : 11,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 134,
+                "row"      : 11,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 135,
+                "row"      : 11,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 136,
+                "row"      : 11,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 137,
+                "row"      : 11,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 138,
+                "row"      : 11,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 139,
+                "row"      : 11,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 140,
+                "row"      : 11,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 141,
+                "row"      : 11,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 142,
+                "row"      : 11,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 143,
+                "row"      : 11,
+                "column"   : 11
+            },
+            {
+                "gridType" : 0,
+                "index"    : 144,
+                "row"      : 12,
+                "column"   : 0
+            },
+            {
+                "gridType" : 0,
+                "index"    : 145,
+                "row"      : 12,
+                "column"   : 1
+            },
+            {
+                "gridType" : 0,
+                "index"    : 146,
+                "row"      : 12,
+                "column"   : 2
+            },
+            {
+                "gridType" : 0,
+                "index"    : 147,
+                "row"      : 12,
+                "column"   : 3
+            },
+            {
+                "gridType" : 0,
+                "index"    : 148,
+                "row"      : 12,
+                "column"   : 4
+            },
+            {
+                "gridType" : 0,
+                "index"    : 149,
+                "row"      : 12,
+                "column"   : 5
+            },
+            {
+                "gridType" : 0,
+                "index"    : 150,
+                "row"      : 12,
+                "column"   : 6
+            },
+            {
+                "gridType" : 0,
+                "index"    : 151,
+                "row"      : 12,
+                "column"   : 7
+            },
+            {
+                "gridType" : 0,
+                "index"    : 152,
+                "row"      : 12,
+                "column"   : 8
+            },
+            {
+                "gridType" : 0,
+                "index"    : 153,
+                "row"      : 12,
+                "column"   : 9
+            },
+            {
+                "gridType" : 0,
+                "index"    : 154,
+                "row"      : 12,
+                "column"   : 10
+            },
+            {
+                "gridType" : 0,
+                "index"    : 155,
+                "row"      : 12,
+                "column"   : 11
+            }
+        ]
+    },
+    "allBattleUnits" : [
+        {
+            "id" : 0,
+            "atk" : 10,
+            "hp"  : 5,
+            "maxHp" : 119
+        },
+        {
+            "id" : 1,
+            "atk" : 13,
+            "hp"  : 93,
+            "maxHp" : 119
+        }
+    ]
+}

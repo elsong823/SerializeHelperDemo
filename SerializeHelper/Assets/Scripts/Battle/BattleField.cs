@@ -28,6 +28,7 @@ public class BattleField
     /// <returns></returns>
     public static BattleField Create(int mapRow, int mapColumn, int battleUnitAmount)
     {
+        //通过对象池获取一个战场单位
         BattleField battleField = ELGame.SingletonRecyclePool<BattleField>.Get();
 
         //创建一个地图呢
@@ -39,6 +40,7 @@ public class BattleField
 
         for (int i = 0; i < battleUnitAmount; i++)
         {
+            //创建单个战斗单位
             battleField.allBattleUnits.Add(BattleUnit.Create(i));
         }
 
@@ -76,6 +78,10 @@ public class BattleField
         ELGame.SingletonRecyclePool<BattleField>.Return(this);
     }
 
+    /// <summary>
+    /// 序列化战场
+    /// </summary>
+    /// <param name="jsonWriter"></param>
     public void Serialize(JsonWriter jsonWriter)
     {
         if (battleMap != null)
@@ -85,6 +91,10 @@ public class BattleField
             jsonWriter.WriteList("battleUnits", allBattleUnits);
     }
 
+    /// <summary>
+    /// 反序列化战场
+    /// </summary>
+    /// <param name="jsonReader"></param>
     public void Deserialize(JsonReader jsonReader)
     {
         if (jsonReader == null)
@@ -93,6 +103,7 @@ public class BattleField
         DeserializeHelper dh = DeserializeHelper.Create();
         //反序列化对象（暂时只有地图）
         dh.ObjectDeserializeCallback = ObjectDeserialize;
+        //反序列化数组（暂时只有战斗单位）
         dh.ArrayDeserializeCallback = ArrayDeserialize;
         dh.Deserialize(jsonReader, true);
     }

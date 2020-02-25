@@ -47,9 +47,13 @@ public class MapGrid
         ELGame.SingletonRecyclePool<MapGrid>.Return(this);
     }
 
+    /// <summary>
+    /// 序列化格子
+    /// </summary>
+    /// <param name="jsonWriter"></param>
     public void Serialize(JsonWriter jsonWriter)
     {
-        //只记录坐标
+        //只记录索引
         jsonWriter.Write(index);
     }
 

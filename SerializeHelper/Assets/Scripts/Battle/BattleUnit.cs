@@ -24,10 +24,15 @@ public class BattleUnit
         ELGame.SingletonRecyclePool<BattleUnit>.Return(this);
     }
 
+    /// <summary>
+    /// 序列化战斗单位
+    /// </summary>
+    /// <param name="jsonWriter"></param>
     public void Serialize(JsonWriter jsonWriter)
     {
         jsonWriter.WriteObjectStart();
         {
+            //记录基本属性键值对
             jsonWriter.WriteKeyValue("id", id);
             jsonWriter.WriteKeyValue("atk", atk);
             jsonWriter.WriteKeyValue("hp", hp);
@@ -82,9 +87,11 @@ public class BattleUnit
     /// <returns></returns>
     public static BattleUnit Create(int id)
     {
+        //获取一个空的战斗单位
         BattleUnit battleUnit = ELGame.SingletonRecyclePool<BattleUnit>.Get();
 
         battleUnit.id = id;
+        //随机一些属性
         battleUnit.atk = UnityEngine.Random.Range(10, 20);
         battleUnit.maxHp = UnityEngine.Random.Range(100, 150);
         battleUnit.hp = UnityEngine.Random.Range(1, battleUnit.maxHp + 1);

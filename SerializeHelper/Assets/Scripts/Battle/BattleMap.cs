@@ -20,12 +20,16 @@ public class BattleMap
     /// <returns></returns>
     public static BattleMap Create(int mapRow, int mapColumn)
     {
+        //获取一张空地图
         BattleMap battleMap = ELGame.SingletonRecyclePool<BattleMap>.Get();
 
+        //记录行、列数
         battleMap.mapRow = mapRow;
         battleMap.mapColumn = mapColumn;
 
-        battleMap.Setup();
+        //生成空格子
+        battleMap.GenerateEmptyGrids();
+        //随机一部分特殊格子
         battleMap.RandomGridType();
 
         return battleMap;
@@ -34,7 +38,7 @@ public class BattleMap
     /// <summary>
     /// 生成地图，在设置行列后调用
     /// </summary>
-    private void Setup()
+    private void GenerateEmptyGrids()
     {
         RemoveAllGrids();
 
@@ -96,6 +100,10 @@ public class BattleMap
         ELGame.SingletonRecyclePool<BattleMap>.Return(this);
     }
     
+    /// <summary>
+    /// 序列化地图
+    /// </summary>
+    /// <param name="jsonWriter"></param>
     public void Serialize(JsonWriter jsonWriter)
     {
         //保存地图行、列数
@@ -116,6 +124,10 @@ public class BattleMap
         }
     }
 
+    /// <summary>
+    /// 反序列化地图
+    /// </summary>
+    /// <param name="jsonReader"></param>
     public void Deserialize(JsonReader jsonReader)
     {
         if (jsonReader == null)
@@ -173,7 +185,7 @@ public class BattleMap
             case "mapColumn":
                 mapColumn = intValue;
                 //到这里时重建地图
-                Setup();
+                GenerateEmptyGrids();
                 break;
                 
             default:

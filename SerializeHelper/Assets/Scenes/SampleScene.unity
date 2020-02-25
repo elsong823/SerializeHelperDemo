@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Demo
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,10 +142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b578a67e14ea1bc46a32fdd7f33d1827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  workType: 1
   btnSerializeBattleField: {fileID: 2032079269}
   btnDeserializeBattleField: {fileID: 1229539357}
-  serializeOutputPath: 
-  serializeOutputPath_mirror: 
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -214,7 +213,7 @@ GameObject:
   - component: {fileID: 995449067}
   - component: {fileID: 995449066}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: '  '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -549,7 +548,7 @@ GameObject:
   - component: {fileID: 1860694371}
   - component: {fileID: 1860694370}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: ' '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
